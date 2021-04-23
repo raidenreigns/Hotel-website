@@ -6,7 +6,6 @@ body {
 	font-family: 'Oxygen' , sans-serif;
 }
 
-/**header**/
 
 #header-nav {
 	background-color: #f6b319;
@@ -23,11 +22,6 @@ body {
 	
 
 }
-
-/*#kosher{width:50px;
-height:50px;
-margin:20px 0px 0px 0px;
-background:transparent;}*/
 
 
 .navbar-brand {
@@ -110,7 +104,16 @@ background:#E7E7E7;
 	margin-top:-30px;
 }
 
+
 @media (min-width:1200px) {
+
+	.jumbotron{
+		background: url('../images/1024.jpg') no-repeat center;
+	    width:1024px;
+		height:683px;
+		box-shadow:0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F;
+	}
 	
 }
 
@@ -119,7 +122,17 @@ background:#E7E7E7;
 	background: url(../images/log3.png) no-repeat center;
 	width: 100px;
 	height: 100px;
-	margin: 5px 5px 5px 0px;
+	margin: 5px 5px 5px 0px;}
+
+    .jumbotron{
+		background: url('../images/final_992.jpg') no-repeat center;
+		
+		height:642px;
+		box-shadow:0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F;
+	}
+	
+    
 
 
 
@@ -127,33 +140,46 @@ background:#E7E7E7;
 
 @media(min-width: 768px) and (max-width: 991px){
 
+	.jumbotron{
+		background: url('../images/768.jpg') no-repeat center;
+		
+		height:432px;
+		box-shadow:0 0 50px #3F0C1F;
+		border: 2px solid #3F0C1F;
+	}
+
 }
 
 
-@media(max-width:767px){
+@media (max-width: 767px){
 
 	.navbar-brand {
 		padding-top: 10px;
-		height:80px;
-
-	}
+		height:80px;}
 
 	.navbar-brand h1 {
 		padding-top: 10px;
-		font-size: 5vw;
-	}
+		font-size: 5vw;}
     
     .navbar-brand p {
-    	text-transform: uppercase;
-    	font-size: 100px;
+    
+    	font-size: .6em;
     	margin-top: 12px;}
+       
+    .navbar-brand p img {height: 20px;}   
 
+    #collapsable-nav a {
+    	font-size: 1.2em;
+    }    
 
-	.navbar-brand img {
-	height: 20px;
+    #collapsable-nav a span {
+	font-size: 1em;
+    margin-right: 5px;}
 }
 
+
 }
+
 
 
 

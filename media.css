@@ -1,0 +1,47 @@
+@media (min-width:1200px) {
+	
+}
+
+@media(min-width:992px) and (max-width:1199px){
+	#logo-img{
+	background: url(../images/log3.png) no-repeat center;
+	width: 100px;
+	height: 100px;
+	margin: 5px 5px 5px 0px;}
+
+
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+
+}
+
+
+@media (max-width: 767px){
+
+	.navbar-brand {
+		padding-top: 10px;
+		height:80px;}
+
+	.navbar-brand h1 {
+		padding-top: 10px;
+		font-size: 1vw;}
+    
+    .navbar-brand p {
+    
+    	font-size: .6em;
+    	margin-top: 12px;}
+       
+    .navbar-brand img {height: 20px;}   
+
+    #collapsable-nav a {
+    	font-size: 1.2em;
+    }    
+
+    #collapsable-nav a span {
+	font-size: 0em;}
+}
+
+
+}
