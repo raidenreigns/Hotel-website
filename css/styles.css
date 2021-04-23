@@ -129,8 +129,9 @@ background:#E7E7E7;
 		
 		height:642px;
 		box-shadow:0 0 50px #3F0C1F;
-		border: 2px solid #3F0C1F;
-	}
+		border: 2px solid #3F0C1F;}
+
+	
 	
     
 
@@ -175,10 +176,29 @@ background:#E7E7E7;
     #collapsable-nav a span {
 	font-size: 1em;
     margin-right: 5px;}
+
+#call-btn > a{ font-size: 1.5 em;
+	display:block;
+	margin: 0 20px;
+	padding: 10px;
+	border:2px solid #ffff;
+	background-color:#f6b319;
+	color: #951c49;
+	 }
+	
+.container .jumbotron {
+	margin-top:30px;
+	width:613px;
+	padding:0;
+	box-shadow: 0 0 50px #3F0C1F;
+	border: 2px solid #3F0C1F;
 }
 
 
 }
+
+
+
 
 
 
