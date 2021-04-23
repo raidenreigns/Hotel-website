@@ -1,2 +1,2 @@
 # Hotel-website
-Designing a mock hotel website project
+https://raidenreigns.github.io/Hotel-website/
