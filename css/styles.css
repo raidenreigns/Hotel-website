@@ -107,7 +107,7 @@ background:#E7E7E7;
 
 @media (min-width:1200px) {
 
-	.jumbotron{
+	.container .jumbotron{
 		background: url('../images/1024.jpg') no-repeat center;
 	    width:1024px;
 		height:683px;
@@ -124,7 +124,7 @@ background:#E7E7E7;
 	height: 100px;
 	margin: 5px 5px 5px 0px;}
 
-    .jumbotron{
+   .container .jumbotron{
 		background: url('../images/final_992.jpg') no-repeat center;
 		
 		height:642px;
@@ -141,7 +141,7 @@ background:#E7E7E7;
 
 @media(min-width: 768px) and (max-width: 991px){
 
-	.jumbotron{
+	.container .jumbotron{
 		background: url('../images/768.jpg') no-repeat center;
 		
 		height:432px;
