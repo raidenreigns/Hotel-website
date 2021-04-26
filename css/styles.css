@@ -240,7 +240,7 @@ background:#E7E7E7;
 	border: 2px solid #3F0C1F;
 }
 
-#menu-tile, #specials-tile {
+#menu-tile, #specials-tile, #map-tile {
 	width:360px;
 	margin: 0 auto 15px;
 }
