@@ -178,13 +178,6 @@ background:#E7E7E7;
 	opacity: .8;
 }
 
-#footer {
-  
-   
-    position: absolute;
-     margin: 0px;
-     left:0;
-    }
 
 
 
@@ -203,8 +196,15 @@ background:#E7E7E7;
 		border: 2px solid #3F0C1F;
 	}
 	
+#footer {
+  
+   
+    position: absolute;
+     right: 0px;
+     left:0;
+    }
 
-	
+
 
 }
 
@@ -222,6 +222,13 @@ background:#E7E7E7;
 		box-shadow:0 0 50px #3F0C1F;
 		border: 2px solid #3F0C1F;}
 
+#footer {
+  
+   
+    position: absolute;
+     right:0;
+     left:0;
+    }
 	
 	
     
@@ -239,7 +246,13 @@ background:#E7E7E7;
 		box-shadow:0 0 50px #3F0C1F;
 		border: 2px solid #3F0C1F;
 	}
-
+#footer {
+  
+   
+    position: absolute;
+     right:0;
+     left:0;
+    }
 }
 
 
@@ -289,6 +302,14 @@ background:#E7E7E7;
 	width:347px;
 	margin: 0 auto 15px;
 }
+
+#footer {
+  
+   
+    position: absolute;
+     right:0;
+     left:0;
+    }
 }
 
 
