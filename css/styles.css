@@ -362,7 +362,7 @@ background:#E7E7E7;
 }
 
 
-@media (max-width: 479px)
+@media (max-width: 500px)
 {
 	.navbar-brand h1{
 		padding-top:5px;
